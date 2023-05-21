@@ -1,16 +1,23 @@
 Process for running ang testing the APIs.
 
 1.) Download or clone the repository to local host.
+
 2.) Open terminal go to the folder of cloned or downloaded repository.
+
 3.) Run command "npm install" , to install all the required dependencies.
+
 4.) Create a new directory named ".env".
+
+
 5.) Add the following environment variables.
     i) MONGODB_URI 
     ii) JWT_SECRET 
     iii) PORT 
 
 6.) After adding the above environment variables run command "nodemon index.js".
+
 7.) Go to Postman for testing APIs.
+
 8.) Testing APIs
 
     i.) First create a POST request to REGISTER user with url `http://localhost:${port}/user/register' (enter your port number by replacing ${port} ) and provide raw data in body in JSON format.
