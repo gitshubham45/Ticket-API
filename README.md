@@ -73,6 +73,8 @@ Process for running ang testing the APIs.
     url e.g. -> `http://localhost:3000/6469a745721b90b8752480e2?page=1&limit=5' 
     it will return first 5 tickets on the first page.
 
+9.) You can verify the results
+
 
 
 
